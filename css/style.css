@@ -41,6 +41,10 @@ body {
     border-radius: 40px;
 }
 
+.info img {
+    width: 40%;
+}
+
 .icons {
     margin-top: 5%;
     display: flex;
