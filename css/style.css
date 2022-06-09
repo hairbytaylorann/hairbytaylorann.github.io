@@ -1,0 +1,66 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo img {
+    margin-top: 17%;
+    width: 450px;
+}
+
+.info {
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    justify-self: center
+}
+
+.info h2 {
+    font-size: 40px;
+}
+
+.info h4 {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    padding: 15px;
+    color: rgb(222, 63, 20);
+    border-radius: 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    justify-content: center;
+}
+
+.insta {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.email {
+    margin-left: 10px;
+    width: 50px;
+}
+
+.feed {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
